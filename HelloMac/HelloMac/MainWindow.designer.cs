@@ -16,6 +16,12 @@ namespace HelloMac
 
 		[Outlet]
 		MonoMac.AppKit.NSButton CancelButton { get; set; }
+
+		[Outlet]
+		MonoMac.AppKit.NSTextField TextField { get; set; }
+
+		[Outlet]
+		MonoMac.AppKit.NSTextField OutputLabel { get; set; }
 		
 		void ReleaseDesignerOutlets ()
 		{
@@ -27,6 +33,16 @@ namespace HelloMac
 			if (CancelButton != null) {
 				CancelButton.Dispose ();
 				CancelButton = null;
+			}
+
+			if (TextField != null) {
+				TextField.Dispose ();
+				TextField = null;
+			}
+
+			if (OutputLabel != null) {
+				OutputLabel.Dispose ();
+				OutputLabel = null;
 			}
 		}
 	}

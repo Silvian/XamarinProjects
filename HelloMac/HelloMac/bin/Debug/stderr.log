@@ -1,26 +1,3 @@
-2013-03-15 19:03:43.196 HelloMac[4821:1007] Could not connect the action OKButton: to target of class MainWindowController
-2013-03-15 19:03:43.197 HelloMac[4821:1007] Could not connect the action CancelButton: to target of class MainWindowController
-
-Unhandled Exception:
-System.ArgumentNullException: Argument cannot be null.
-Parameter name: sender
-at MonoMac.AppKit.NSApplication.Terminate (MonoMac.Foundation.NSObject) <IL 0x00010, 0x0005f>
-at HelloMac.MainWindowController.HandleActivated (object,System.EventArgs) [0x00000] in /Users/silvian/Projects/HelloMac/HelloMac/MainWindowController.cs:57
-at MonoMac.AppKit.ActionDispatcher.OnActivated (MonoMac.Foundation.NSObject) <IL 0x00014, 0x00062>
-at (wrapper dynamic-method) object.[MonoMac.AppKit.ActionDispatcher.Void OnActivated(MonoMac.Foundation.NSObject)] (MonoMac.Foundation.NSObject,MonoMac.ObjCRuntime.Selector,MonoMac.Foundation.NSObject) <IL 0x00011, 0x0004b>
-at (wrapper native-to-managed) object.[MonoMac.AppKit.ActionDispatcher.Void OnActivated(MonoMac.Foundation.NSObject)] (MonoMac.Foundation.NSObject,MonoMac.ObjCRuntime.Selector,MonoMac.Foundation.NSObject) <IL 0x0006c, 0x00213>
-at (wrapper managed-to-native) MonoMac.AppKit.NSApplication.NSApplicationMain (int,string[]) <0x00003>
-at MonoMac.AppKit.NSApplication.Main (string[]) <IL 0x0000e, 0x0006b>
-at HelloMac.MainClass.Main (string[]) [0x00005] in /Users/silvian/Projects/HelloMac/HelloMac/Main.cs:14
-
-[ERROR] FATAL UNHANDLED EXCEPTION: System.ArgumentNullException: Argument cannot be null.
-Parameter name: sender
-at MonoMac.AppKit.NSApplication.Terminate (MonoMac.Foundation.NSObject) <IL 0x00010, 0x0005f>
-at HelloMac.MainWindowController.HandleActivated (object,System.EventArgs) [0x00000] in /Users/silvian/Projects/HelloMac/HelloMac/MainWindowController.cs:57
-at MonoMac.AppKit.ActionDispatcher.OnActivated (MonoMac.Foundation.NSObject) <IL 0x00014, 0x00062>
-at (wrapper dynamic-method) object.[MonoMac.AppKit.ActionDispatcher.Void OnActivated(MonoMac.Foundation.NSObject)] (MonoMac.Foundation.NSObject,MonoMac.ObjCRuntime.Selector,MonoMac.Foundation.NSObject) <IL 0x00011, 0x0004b>
-at (wrapper native-to-managed) object.[MonoMac.AppKit.ActionDispatcher.Void OnActivated(MonoMac.Foundation.NSObject)] (MonoMac.Foundation.NSObject,MonoMac.ObjCRuntime.Selector,MonoMac.Foundation.NSObject) <IL 0x0006c, 0x00213>
-at (wrapper managed-to-native) MonoMac.AppKit.NSApplication.NSApplicationMain (int,string[]) <0x00003>
-at MonoMac.AppKit.NSApplication.Main (string[]) <IL 0x0000e, 0x0006b>
-at HelloMac.MainClass.Main (string[]) [0x00005] in /Users/silvian/Projects/HelloMac/HelloMac/Main.cs:14
-
+2013-03-17 16:19:08.729 HelloMac[1649:1007] Could not connect the action OKButton: to target of class MainWindowController
+2013-03-17 16:19:08.729 HelloMac[1649:1007] Could not connect the action CancelButton: to target of class MainWindowController
+2013-03-17 16:19:08.730 HelloMac[1649:1007] Could not connect the action TextField: to target of class MainWindowController

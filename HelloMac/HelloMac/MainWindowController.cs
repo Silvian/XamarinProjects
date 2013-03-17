@@ -8,7 +8,16 @@ using MonoMac.AppKit;
 namespace HelloMac
 {
 	public partial class MainWindowController : MonoMac.AppKit.NSWindowController
+
 	{
+		#region Global Variables
+
+		//Global variable containing value to be calculated.
+		String inputValue = "";
+		String totalValue = "";
+
+		#endregion
+
 		#region Constructors
 		
 		// Called when created from unmanaged code
@@ -47,16 +56,39 @@ namespace HelloMac
 		public override void AwakeFromNib ()
 		{
 			base.AwakeFromNib ();
-			OKButton.Activated += HandleActivated;
-			CancelButton.Activated += HandleActivated;
+			OKButton.Activated += CalculateHandleActivated;
+			TextField.Activated += InputHandleActivated;
+			CancelButton.Activated += CancelHandleActivated;
+
 
 		}
 
-		void HandleActivated (object sender, EventArgs e)
+		void CancelHandleActivated (object sender, EventArgs e)
 		{
 			NSApplication.SharedApplication.Terminate (null);
 		
 		}
+
+		void InputHandleActivated(object sender, EventArgs e)
+		{
+
+		}
+
+		void CalculateHandleActivated (object sender, EventArgs e)
+		{
+			String temp;
+			temp = TextField.StringValue;
+			
+			
+			inputValue = temp;
+			temp = null;
+
+
+			totalValue = inputValue.ToUpper();
+			OutputLabel.StringValue = totalValue;
+
+		}
+
 	}
 }
 
