@@ -85,7 +85,7 @@ namespace HelloMac
 
 
 			totalValue = inputValue.ToUpper();
-			OutputLabel.StringValue = totalValue;
+			TextField.StringValue = totalValue;
 
 		}
 

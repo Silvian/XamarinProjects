@@ -19,9 +19,6 @@ namespace HelloMac
 
 		[Outlet]
 		MonoMac.AppKit.NSTextField TextField { get; set; }
-
-		[Outlet]
-		MonoMac.AppKit.NSTextField OutputLabel { get; set; }
 		
 		void ReleaseDesignerOutlets ()
 		{
@@ -38,11 +35,6 @@ namespace HelloMac
 			if (TextField != null) {
 				TextField.Dispose ();
 				TextField = null;
-			}
-
-			if (OutputLabel != null) {
-				OutputLabel.Dispose ();
-				OutputLabel = null;
 			}
 		}
 	}

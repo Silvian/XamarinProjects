@@ -1,11 +1,11 @@
-﻿<Properties MonoDevelop.MonoMac.LastXamMacNagTime="17/03/2013 13:34:29">
+﻿<Properties MonoDevelop.MonoMac.LastXamMacNagTime="18/03/2013 17:12:24">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.Workbench ActiveDocument="HelloMac/MainWindowController.cs">
     <Files>
       <File FileName="HelloMac/Main.cs" Line="1" Column="1" />
       <File FileName="HelloMac/MainWindow.designer.cs" Line="1" Column="1" />
       <File FileName="HelloMac/MainWindow.cs" Line="1" Column="1" />
-      <File FileName="HelloMac/MainWindowController.cs" Line="52" Column="14" />
+      <File FileName="HelloMac/MainWindowController.cs" Line="61" Column="38" />
       <File FileName="HelloMac/AppDelegate.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
