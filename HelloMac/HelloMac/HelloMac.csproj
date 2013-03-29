@@ -85,6 +85,9 @@
     <Compile Include="AppDelegate.designer.cs">
       <DependentUpon>AppDelegate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Calculator.cs" />
+    <Compile Include="Calculate.cs" />
+    <Compile Include="Operator.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="MainWindow.xib" />

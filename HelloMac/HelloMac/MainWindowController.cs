@@ -65,7 +65,7 @@ namespace HelloMac
 
 		void CancelHandleActivated (object sender, EventArgs e)
 		{
-			NSApplication.SharedApplication.Terminate (null);
+			NSApplication.SharedApplication.Terminate(null);
 		
 		}
 
