@@ -26,13 +26,38 @@ namespace HelloMac
 
 		private double parseStringInput(String input)
 		{
+			char [] charInput = input.ToCharArray();
+			double num1 = 0;
+			double num2 = 0;
+
 			for(int i = 0; i < input.Length; i++)
 			{
-				if(input.Contains("+"))
+				if(charInput[i].Equals("[0-9]"))
 				{
-
+					num1 = (double) charInput[i];
 				}
 			}
+
+			if(input.Contains("+"))
+			{
+				calculator.Add();
+			}
+		
+			if(input.Contains("-"))
+			{
+				calculator.Substract();
+			}
+
+			if(input.Contains("*"))
+			{
+				calculator.Multiply();
+			}
+
+			if(input.Contains("/"))
+			{
+				calculator.Divide();
+			}
+			
 
 			return doubleInput;
 		}
