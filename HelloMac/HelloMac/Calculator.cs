@@ -1,4 +1,6 @@
 using System;
+using Microsoft;
+//using MSScriptControl;
 
 namespace HelloMac
 {
@@ -51,6 +53,16 @@ namespace HelloMac
 		{
 
 		}
+
+//		public void Evaluate()
+//		{
+//			MSScriptControl.ScriptControl sc = new MSScriptControl.ScriptControl();
+//			sc.Language = "VBScript";
+//			string expression = "1 + 2 * 7";
+//			object result = sc.Eval(expression);            
+//			MessageBox.Show(result.ToString());
+//
+//		}
 
 	}
 }

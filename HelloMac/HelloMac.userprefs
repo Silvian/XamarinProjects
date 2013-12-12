@@ -1,15 +1,15 @@
-﻿<Properties MonoDevelop.MonoMac.LastXamMacNagTime="29/03/2013 17:43:45">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="HelloMac/Calculate.cs">
+﻿<Properties MonoDevelop.MonoMac.LastXamMacNagTime="12/12/2013 22:11:15">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="HelloMac/MainWindowController.cs">
     <Files>
       <File FileName="HelloMac/Main.cs" Line="1" Column="1" />
-      <File FileName="HelloMac/MainWindow.designer.cs" Line="1" Column="1" />
+      <File FileName="HelloMac/MainWindow.designer.cs" Line="17" Column="11" />
       <File FileName="HelloMac/MainWindow.cs" Line="1" Column="1" />
-      <File FileName="HelloMac/MainWindowController.cs" Line="68" Column="1" />
+      <File FileName="HelloMac/MainWindowController.cs" Line="83" Column="22" />
       <File FileName="HelloMac/AppDelegate.cs" Line="1" Column="1" />
-      <File FileName="HelloMac/Calculator.cs" Line="26" Column="4" />
-      <File FileName="HelloMac/Calculate.cs" Line="37" Column="6" />
-      <File FileName="HelloMac/Operator.cs" Line="7" Column="32" />
+      <File FileName="HelloMac/Calculator.cs" Line="1" Column="1" />
+      <File FileName="HelloMac/Calculate.cs" Line="1" Column="1" />
+      <File FileName="HelloMac/Operator.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

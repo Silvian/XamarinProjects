@@ -9,6 +9,7 @@ namespace HelloMac
 		String result;
 		double doubleInput;
 
+
 		public Calculate ()
 		{
 			calculator = new Calculator();
